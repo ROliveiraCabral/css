@@ -1,0 +1,17 @@
+span {
+  color: red;
+  background-color: lightgray;
+}
+
+#para1 {
+  font-size: 18px;
+  font-weight: bold;
+  background-color: lightblue;
+}
+
+.blockquote {
+  color: black;
+  background-color: lightgreen;
+  font-family: "Courier New", Courier, monospace;
+  font-size: 16px;
+}
