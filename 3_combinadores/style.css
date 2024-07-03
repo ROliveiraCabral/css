@@ -1,0 +1,7 @@
+p.texto {
+    color: blueviolet;
+}
+
+h1, [id^="botao"] {
+    background: lightcoral;
+}
