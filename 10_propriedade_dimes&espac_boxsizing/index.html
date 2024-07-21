@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Propriedades de Dimensionamento e Espaçamento - Box Sizing</title>
+    <style>
+      /*width = largura + borda + padding*/
+      div {
+        width: 200px;
+        height: 200px;
+        color: white;
+
+        /*widht = 200 + 20 esquerda de padding + 20 direita de padding
+        total = 240px*/
+        margin: 20px;
+        padding: 20px;
+      }
+      #elemento-01 {
+        background-color: orange;
+        /*total = 200px
+        widht = 160 redimensionado + 20 esquerda de padding + 20 direita de padding*/
+        box-sizing: border-box;
+      }
+      #elemento-02 {
+        background-color: purple;
+        box-sizing: content-box;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="elemento-01"></div>
+    <div id="elemento-02"></div>
+  </body>
+</html>
